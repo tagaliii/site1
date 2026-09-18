@@ -1,7 +1,16 @@
 body {
     background-color: #000000;
+    overflow: hidden;
 }
 
 h1, p {
     color: blueviolet;
+}
+
+button {
+    background: transparent;
+    border: none !important;
+    color: transparent;
+    min-height: 100vh;
+    min-width: 100vw;
 }
